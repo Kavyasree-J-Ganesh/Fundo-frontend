@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border: 2px solid #f0e9e9;
+}
+
+.header_heading {
+    font-size: 24px;
+    color: #5f6368;
+    opacity: 1;
+    font-weight: 400;
+}
+
+.header >* {
+    margin-right: 1.5%;
+}
+
+.header_search {
+    flex: 1;
+    margin-left: 5%;
+    margin-right: 20%;
+}

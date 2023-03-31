@@ -1,0 +1,19 @@
+.takenote_header {
+    width: 40%;
+    margin: 32px auto 0px auto;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 2px 6px 2px rgba(60,64,67,0.149);
+    padding: 14px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.takenote_des {
+    flex: 1;
+    color:  #5f6368;
+}
+
+.takenote_header >* {
+    margin-right: 20px;
+}
+
